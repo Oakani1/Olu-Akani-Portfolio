@@ -581,7 +581,7 @@ section {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1300px;
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -3106,7 +3106,7 @@ h5 {
 @media screen and (min-width: 1200px) {
   .wrapper__project {
     padding: 2rem;
-    height: 450px;
+    height: 410px;
   }
   
 }
@@ -3155,7 +3155,7 @@ h5 {
   padding: 10px 15px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.2);
-  margin: 5px 5px;
+  margin: 2px 2px;
 }
 .wrapper__list-experience {
   border: 1px solid #e7e7e7;
