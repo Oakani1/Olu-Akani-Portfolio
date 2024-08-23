@@ -59,6 +59,14 @@
   margin-bottom: -50px;
 }
 
+.emphasis {
+  color: #0252CD;
+  font-weight: bold;
+}
+
+.coming-soon {
+  font-weight: bold;
+}
 
 @-moz-keyframes spin {
   100% {
