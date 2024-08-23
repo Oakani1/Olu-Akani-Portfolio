@@ -54,6 +54,12 @@
     border-left-color: white;
   }
 }
+
+.anfanifi-margin {
+  margin-bottom: -50px;
+}
+
+
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg);
