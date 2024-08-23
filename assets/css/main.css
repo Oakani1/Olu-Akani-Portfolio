@@ -538,6 +538,17 @@ h5 {
   text-decoration: underline;
 }
 
+.tile-sub {
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.tile_skill {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
 @font-face {
   font-family: circular;
   src: url("../fonts/CircularStd-Book.ttf");
@@ -570,7 +581,7 @@ section {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1500px;
 }
 @media screen and (max-width: 1200px) {
   .container {
@@ -3083,16 +3094,36 @@ h5 {
 }
 .wrapper__project {
   border-radius: 24px;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
+  
 }
 @media screen and (max-width: 576px) {
   .wrapper__project {
     padding: 2rem;
   }
+  
 }
+@media screen and (min-width: 1200px) {
+  .wrapper__project {
+    padding: 2rem;
+    height: 450px;
+  }
+  
+}
+.wrapper__project.vibrant_blue {
+  background-color: #0707CF;
+}
+
+.wrapper__project.deep_red {
+  background-color: #AF3246;
+}
+
+
+
 .wrapper__project.tosca {
   background-color: #56b0b9;
 }
+
 .wrapper__project.blue {
   background-color: #5f9ffe;
 }
@@ -3124,7 +3155,7 @@ h5 {
   padding: 10px 15px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 .wrapper__list-experience {
   border: 1px solid #e7e7e7;
