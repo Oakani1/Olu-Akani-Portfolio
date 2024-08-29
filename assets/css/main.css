@@ -55,6 +55,39 @@
   }
 }
 
+/************Resume*/
+.resume .card, .resume-two .card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 5rem 5rem 0rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem 0rem;
+}
+
+.resume-title {
+  color: #AAAAB7;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.title-size {
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 .anfanifi-margin {
   margin-bottom: -50px;
 }
