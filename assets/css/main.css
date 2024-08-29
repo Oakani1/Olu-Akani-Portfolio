@@ -88,6 +88,10 @@
   margin-bottom: 1rem;
 }
 
+.content {
+  max-width: 50%;
+}
+
 .anfanifi-margin {
   margin-bottom: -50px;
 }
