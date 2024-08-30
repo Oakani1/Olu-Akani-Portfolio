@@ -3178,8 +3178,10 @@ h5 {
 @media screen and (min-width: 1200px) {
   .wrapper__project {
     padding: 2rem;
-    height: 410px;
+    
   }
+
+  
   
 }
 .wrapper__project.vibrant_blue {
@@ -3194,6 +3196,16 @@ h5 {
 .wrapper__project.deep_red {
   background-color: #AF3246;
 }
+
+.wrapper__project.deep_blue {
+  background-color: #0E176F;
+}
+
+.wrapper__project.new-purple {
+  background-color: #504CEA;
+}
+
+
 
 
 
