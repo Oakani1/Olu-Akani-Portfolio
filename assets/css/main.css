@@ -55,6 +55,76 @@
   }
 }
 
+/************Resume*/
+.resume .card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 5rem 5rem 0rem;
+}
+
+@media screen and (max-width: 768px) {
+  .resume .card {
+  padding: 3rem 3rem 0rem;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  .resume .card {
+  padding: 3rem 1rem 1rem;
+}
+
+}
+
+.skill-list {
+  font-weight: bold;
+}
+
+.cert-logo {
+  margin: 0 0 2rem;
+  max-height: 120px;
+  
+}
+
+.skill-logo {
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem 0rem;
+}
+
+.resume-title {
+  color: #AAAAB7;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.title-size {
+    padding-bottom: 0;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.content-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content {
+  /*max-width: 50%;*/
+  margin: 0 0 2rem 0;
+}
+
+.experience-section{
+  margin-bottom:5rem;
+}
+
 .anfanifi-margin {
   margin-bottom: -50px;
 }
