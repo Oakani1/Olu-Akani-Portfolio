@@ -655,7 +655,9 @@ section {
 }
 @media screen and (max-width: 1200px) {
   .container {
-    max-width: 92%;
+    max-width: 95%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 }
 
@@ -3184,6 +3186,11 @@ h5 {
   background-color: #0707CF;
 }
 
+.wrapper__project.light-blue {
+  background-color: #0095F1;
+}
+
+
 .wrapper__project.deep_red {
   background-color: #AF3246;
 }
@@ -3271,6 +3278,14 @@ h5 {
     padding: 4rem 1.5rem;
   }
 }
+
+.wrapper__card-service-sm {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  transition: 0.5s;
+}
+
 .wrapper__card-service {
   padding: 1.5rem;
   border-radius: 10px;
