@@ -56,12 +56,28 @@
 }
 
 /************Resume*/
-.resume .card, .resume-two .card {
+.resume .card {
   border: 1px solid #e8e8e8;
   border-radius: 10px;
   box-shadow: none;
   padding: 5rem 5rem 0rem;
 }
+
+@media screen and (max-width: 768px) {
+  .resume .card {
+  padding: 3rem 3rem rem;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  .resume .card {
+  padding: 3rem 1rem 1rem;
+}
+
+}
+
+
 
 .card-body {
   -ms-flex: 1 1 auto;
@@ -84,7 +100,7 @@
 
 .content-title {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
