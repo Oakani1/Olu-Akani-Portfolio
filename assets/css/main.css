@@ -77,10 +77,18 @@
 
 }
 
+.skill-list {
+  font-weight: bold;
+}
+
 .cert-logo {
   margin: 0 0 2rem;
   max-height: 120px;
-  min-width: 120px;
+  
+}
+
+.skill-logo {
+  margin-bottom: 2rem;
 }
 
 .card-body {
@@ -114,7 +122,7 @@
 }
 
 .experience-section{
-  margin-bottom: 7rem;
+  margin-bottom:5rem;
 }
 
 .anfanifi-margin {
