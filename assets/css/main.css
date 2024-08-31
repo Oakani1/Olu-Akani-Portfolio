@@ -55,6 +55,10 @@
   }
 }
 
+:target {
+  scroll-margin-top: 75px;
+}
+
 /************Resume*/
 .resume .card {
   border: 1px solid #e8e8e8;
@@ -88,7 +92,8 @@
 }
 
 .skill-logo {
-  margin-bottom: 2rem;
+  margin: 0 0.5rem 2rem ;
+  
 }
 
 .card-body {
@@ -114,6 +119,17 @@
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.project-detail {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.project-detail-heading {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .content {
@@ -612,6 +628,10 @@ h5 {
   font-weight: bold;
   color: #ffffff;
 
+}
+
+a.no-color-change:visited {
+  color: inherit !important;
 }
 
 .tile_skill {
