@@ -59,6 +59,11 @@
   scroll-margin-top: 75px;
 }
 
+
+.more-big {
+  line-height: 24px;
+}
+
 /************Resume*/
 .resume .card {
   border: 1px solid #e8e8e8;
