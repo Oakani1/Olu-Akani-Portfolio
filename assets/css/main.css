@@ -3222,6 +3222,11 @@ h5 {
   
   
 }
+
+.bg_vibrant_blue {
+  background-color: #0707CF;
+}
+
 .wrapper__project.vibrant_blue {
   background-color: #0707CF;
 }
