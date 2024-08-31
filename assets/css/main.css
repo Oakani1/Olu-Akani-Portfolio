@@ -59,6 +59,19 @@
   scroll-margin-top: 75px;
 }
 
+.project-section-headings{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+.project-section-headings{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+}
 
 .more-big {
   line-height: 24px;
