@@ -821,6 +821,23 @@ section {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .section-sm-ptb {
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+.project-section-h-p {
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  .project-section-h-p {
+    padding-bottom: 1rem;
+  }
+}
+
 .z-1 {
   z-index: 1;
 }
