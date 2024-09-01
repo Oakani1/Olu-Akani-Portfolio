@@ -19,8 +19,8 @@
   <div class="overflow-hidden">
     <div class="bg__gray-2 position-relative">
       <img src="./assets/images/Group 3394.png" class="path__6 d-none d-sm-block" alt="" />
-      <nav class="navbar navbar-expand-lg wrapper__navbar position-relative z-3" data-aos="fade-down"
-        data-aos-duration="1000" data-aos-delay="300">
+      <nav class="navbar navbar-expand-lg wrapper__navbar position-relative z-3 sticky-top" data-aos="fade-down"
+        data-aos-duration="1000" ddata-aos-delay="300">
         <div class="container position-relative">
           <a class="navbar-brand" href="#">
             <img src="./assets/images/LOGO.svg" alt="" />
@@ -33,30 +33,36 @@
             <span></span>
           </button>
 
-          <div class="collapse navbar-collapse wrapper__navbar-menu center" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse wrapper__navbar-menu center " id="navbarSupportedContent">
             <ul class="navbar-nav menu__center">
-              
+
               <li class="nav-item">
-                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1" href="index.html">
+                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1 active"
+                  href="index.html">
                   home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1" href="index.html#about" target="_blank">
+                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1" href="#about">
                   about me
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1 active"
-                  href="project.html">
-                  projects
+              <li class="nav-item dropdown">
+                <a class="nav-link bold font__size--12 text__12-md text-uppercase color__gray-1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Portfolio Projects
                 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="projects.html">All</a>
+                  <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="projects.html#hardware-projects">Hardware</a>
+                  <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="projects.html#digital-projects">Digital</a>
+                  <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="projects.html#fullstack-projects">Fullstack</a>
+                  <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href= "">Design (Coming soon)</a>
+                </div>
               </li>
-              
             </ul>
           </div>
 
-          
+
         </div>
       </nav>
 
@@ -103,86 +109,86 @@
         <div class="row justify-content-center">
 
           <!--Hardware-->
-          
+
           <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
             data-aos-duration="1000" data-aos-delay="500">
             <a href="#hardware-projects" class="no-color-change">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-3">
-                <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M20.8847 3.8457H6.11542C4.58602 3.8457 3.34619 5.08553 3.34619 6.61493V21.3842C3.34619 22.9136 4.58602 24.1534 6.11542 24.1534H20.8847C22.4141 24.1534 23.6539 22.9136 23.6539 21.3842V6.61493C23.6539 5.08553 22.4141 3.8457 20.8847 3.8457Z"
-                    stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
-                  <path
-                    d="M19.0386 7.53809H7.96165C7.45185 7.53809 7.03857 7.95136 7.03857 8.46116V19.5381C7.03857 20.0479 7.45185 20.4612 7.96165 20.4612H19.0386C19.5484 20.4612 19.9617 20.0479 19.9617 19.5381V8.46116C19.9617 7.95136 19.5484 7.53809 19.0386 7.53809Z"
-                    stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
-                  <path
-                    d="M13.5 3.84615V2M18.1154 3.84615V2M8.88462 3.84615V2M13.5 26V24.1538M18.1154 26V24.1538M8.88462 26V24.1538M23.6538 14H25.5M23.6538 18.6154H25.5M23.6538 9.38462H25.5M1.5 14H3.34615M1.5 18.6154H3.34615M1.5 9.38462H3.34615"
-                    stroke="#9D9D9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-3">
+                  <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M20.8847 3.8457H6.11542C4.58602 3.8457 3.34619 5.08553 3.34619 6.61493V21.3842C3.34619 22.9136 4.58602 24.1534 6.11542 24.1534H20.8847C22.4141 24.1534 23.6539 22.9136 23.6539 21.3842V6.61493C23.6539 5.08553 22.4141 3.8457 20.8847 3.8457Z"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
+                    <path
+                      d="M19.0386 7.53809H7.96165C7.45185 7.53809 7.03857 7.95136 7.03857 8.46116V19.5381C7.03857 20.0479 7.45185 20.4612 7.96165 20.4612H19.0386C19.5484 20.4612 19.9617 20.0479 19.9617 19.5381V8.46116C19.9617 7.95136 19.5484 7.53809 19.0386 7.53809Z"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
+                    <path
+                      d="M13.5 3.84615V2M18.1154 3.84615V2M8.88462 3.84615V2M13.5 26V24.1538M18.1154 26V24.1538M8.88462 26V24.1538M23.6538 14H25.5M23.6538 18.6154H25.5M23.6538 9.38462H25.5M1.5 14H3.34615M1.5 18.6154H3.34615M1.5 9.38462H3.34615"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class=" align-items-center col-9">
+                  <h4 class="bold font__size--16 text__16-1024  m-0">Hardware</h4>
+                </div>
               </div>
-              <div class=" align-items-center col-9">
-                <h4 class="bold font__size--16 text__16-1024  m-0">Hardware</h4>
-              </div>
-            </div>
-          </a>
+            </a>
           </div>
-        
+
 
           <!--Digital-->
-          
+
           <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
             data-aos-duration="1000" data-aos-delay="600">
             <a href="#digital-projects" class="no-color-change">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-3">
-                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M4.32269 22.9258H7.88891V19.3644H4.32269V22.9258ZM1.34196 16.3837V19.3644H4.32269V16.3837H1.34196ZM23.9006 8.17215C22.7877 4.58173 19.9134 1.72197 16.323 0.59452C8.09214 -1.97491 0.5 4.14623 0.5 11.9948H5.13561C5.13561 7.06889 10.0228 3.26072 15.2052 5.13819C17.1263 5.83015 18.665 7.3689 19.357 9.28508C21.249 14.4626 17.4359 19.3402 12.5148 19.3499V19.3644H12.5003V24C20.3683 24 26.4749 16.4127 23.9006 8.17215ZM12.5148 19.3499V14.7385H7.88891V19.3644H12.5003V19.3499H12.5148Z"
-                    fill="#9D9D9D" />
-                </svg>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-3">
+                  <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M4.32269 22.9258H7.88891V19.3644H4.32269V22.9258ZM1.34196 16.3837V19.3644H4.32269V16.3837H1.34196ZM23.9006 8.17215C22.7877 4.58173 19.9134 1.72197 16.323 0.59452C8.09214 -1.97491 0.5 4.14623 0.5 11.9948H5.13561C5.13561 7.06889 10.0228 3.26072 15.2052 5.13819C17.1263 5.83015 18.665 7.3689 19.357 9.28508C21.249 14.4626 17.4359 19.3402 12.5148 19.3499V19.3644H12.5003V24C20.3683 24 26.4749 16.4127 23.9006 8.17215ZM12.5148 19.3499V14.7385H7.88891V19.3644H12.5003V19.3499H12.5148Z"
+                      fill="#9D9D9D" />
+                  </svg>
+                </div>
+                <div class=" align-items-center col-9">
+                  <h4 class="bold font__size--16 text__16-1024  m-0">Digital</h4>
+                </div>
               </div>
-              <div class=" align-items-center col-9">
-                <h4 class="bold font__size--16 text__16-1024  m-0">Digital</h4>
-              </div>
-            </div>
             </a>
           </div>
-        
+
 
 
           <!--Full Stack-->
-          
+
           <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
             data-aos-duration="1000" data-aos-delay="700">
             <a href="#fullstack-projects" class="no-color-change">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-3">
-                <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M29.3681 3.42899C29.6741 3.42899 29.9222 3.17315 29.9222 2.85756C29.9222 2.54197 29.6741 2.28613 29.3681 2.28613C29.062 2.28613 28.814 2.54197 28.814 2.85756C28.814 3.17315 29.062 3.42899 29.3681 3.42899Z"
-                    fill="white" />
-                  <path
-                    d="M27.1515 3.42899C27.4576 3.42899 27.7056 3.17315 27.7056 2.85756C27.7056 2.54197 27.4576 2.28613 27.1515 2.28613C26.8455 2.28613 26.5974 2.54197 26.5974 2.85756C26.5974 3.17315 26.8455 3.42899 27.1515 3.42899Z"
-                    fill="#9D9D9D" />
-                  <path
-                    d="M24.935 3.42899C25.241 3.42899 25.4891 3.17315 25.4891 2.85756C25.4891 2.54197 25.241 2.28613 24.935 2.28613C24.6289 2.28613 24.3809 2.54197 24.3809 2.85756C24.3809 3.17315 24.6289 3.42899 24.935 3.42899Z"
-                    fill="white" />
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M1.66234 24H30.4762C31.3944 24 32.1385 23.2326 32.1385 22.2857V1.71429C32.1385 0.767429 31.3944 0 30.4762 0H1.66234C0.744173 0 0 0.767429 0 1.71429V22.2857C0 23.2326 0.744173 24 1.66234 24ZM31.0303 5.71429V22.2857C31.0303 22.6011 30.7821 22.8571 30.4762 22.8571H1.66234C1.35647 22.8571 1.10823 22.6011 1.10823 22.2857V5.71429H31.0303ZM31.0303 4.57143H1.10823V1.71429C1.10823 1.39886 1.35647 1.14286 1.66234 1.14286H30.4762C30.7821 1.14286 31.0303 1.39886 31.0303 1.71429V4.57143Z"
-                    fill="#9D9D9D" />
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M11.0728 13.176L9.74187 13.8091C9.5446 13.9029 9.41882 14.1069 9.41993 14.3309C9.42104 14.5549 9.54904 14.7577 9.74741 14.8491L11.0728 15.4617L9.74187 16.0949C9.5446 16.1886 9.41882 16.3926 9.41993 16.6166C9.42104 16.8406 9.54904 17.0434 9.74741 17.1349L15.8426 19.9503C15.9867 20.0166 16.1518 20.0166 16.2959 19.9503L22.3912 17.1349C22.5895 17.0434 22.7175 16.8406 22.7186 16.6166C22.7197 16.3926 22.594 16.1886 22.3967 16.0949L21.0657 15.4617L22.3912 14.8491C22.5895 14.7577 22.7175 14.5549 22.7186 14.3309C22.7197 14.1069 22.594 13.9029 22.3967 13.8091L21.0657 13.176L22.3912 12.5634C22.5895 12.472 22.7175 12.2691 22.7186 12.0451C22.7197 11.8211 22.594 11.6171 22.3967 11.5234L16.3015 8.624C16.1541 8.55372 15.9845 8.55372 15.8371 8.624L9.74187 11.5234C9.5446 11.6171 9.41882 11.8211 9.41993 12.0451C9.42104 12.2691 9.54904 12.472 9.74741 12.5634L11.0728 13.176ZM12.4155 16.0817L11.3133 16.6057L16.0693 18.8023L20.8252 16.6057L19.7231 16.0817L16.2959 17.6646C16.1518 17.7309 15.9867 17.7309 15.8426 17.6646L12.4155 16.0817ZM12.4155 13.796L11.3133 14.32L16.0693 16.5166L20.8252 14.32L19.7231 13.796L16.2959 15.3789C16.1518 15.4451 15.9867 15.4451 15.8426 15.3789L12.4155 13.796ZM20.8252 12.0343L16.0693 14.2309L11.3133 12.0343L16.0693 9.772L20.8252 12.0343Z"
-                    fill="#9D9D9D" />
-                </svg>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-3">
+                  <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M29.3681 3.42899C29.6741 3.42899 29.9222 3.17315 29.9222 2.85756C29.9222 2.54197 29.6741 2.28613 29.3681 2.28613C29.062 2.28613 28.814 2.54197 28.814 2.85756C28.814 3.17315 29.062 3.42899 29.3681 3.42899Z"
+                      fill="white" />
+                    <path
+                      d="M27.1515 3.42899C27.4576 3.42899 27.7056 3.17315 27.7056 2.85756C27.7056 2.54197 27.4576 2.28613 27.1515 2.28613C26.8455 2.28613 26.5974 2.54197 26.5974 2.85756C26.5974 3.17315 26.8455 3.42899 27.1515 3.42899Z"
+                      fill="#9D9D9D" />
+                    <path
+                      d="M24.935 3.42899C25.241 3.42899 25.4891 3.17315 25.4891 2.85756C25.4891 2.54197 25.241 2.28613 24.935 2.28613C24.6289 2.28613 24.3809 2.54197 24.3809 2.85756C24.3809 3.17315 24.6289 3.42899 24.935 3.42899Z"
+                      fill="white" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M1.66234 24H30.4762C31.3944 24 32.1385 23.2326 32.1385 22.2857V1.71429C32.1385 0.767429 31.3944 0 30.4762 0H1.66234C0.744173 0 0 0.767429 0 1.71429V22.2857C0 23.2326 0.744173 24 1.66234 24ZM31.0303 5.71429V22.2857C31.0303 22.6011 30.7821 22.8571 30.4762 22.8571H1.66234C1.35647 22.8571 1.10823 22.6011 1.10823 22.2857V5.71429H31.0303ZM31.0303 4.57143H1.10823V1.71429C1.10823 1.39886 1.35647 1.14286 1.66234 1.14286H30.4762C30.7821 1.14286 31.0303 1.39886 31.0303 1.71429V4.57143Z"
+                      fill="#9D9D9D" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M11.0728 13.176L9.74187 13.8091C9.5446 13.9029 9.41882 14.1069 9.41993 14.3309C9.42104 14.5549 9.54904 14.7577 9.74741 14.8491L11.0728 15.4617L9.74187 16.0949C9.5446 16.1886 9.41882 16.3926 9.41993 16.6166C9.42104 16.8406 9.54904 17.0434 9.74741 17.1349L15.8426 19.9503C15.9867 20.0166 16.1518 20.0166 16.2959 19.9503L22.3912 17.1349C22.5895 17.0434 22.7175 16.8406 22.7186 16.6166C22.7197 16.3926 22.594 16.1886 22.3967 16.0949L21.0657 15.4617L22.3912 14.8491C22.5895 14.7577 22.7175 14.5549 22.7186 14.3309C22.7197 14.1069 22.594 13.9029 22.3967 13.8091L21.0657 13.176L22.3912 12.5634C22.5895 12.472 22.7175 12.2691 22.7186 12.0451C22.7197 11.8211 22.594 11.6171 22.3967 11.5234L16.3015 8.624C16.1541 8.55372 15.9845 8.55372 15.8371 8.624L9.74187 11.5234C9.5446 11.6171 9.41882 11.8211 9.41993 12.0451C9.42104 12.2691 9.54904 12.472 9.74741 12.5634L11.0728 13.176ZM12.4155 16.0817L11.3133 16.6057L16.0693 18.8023L20.8252 16.6057L19.7231 16.0817L16.2959 17.6646C16.1518 17.7309 15.9867 17.7309 15.8426 17.6646L12.4155 16.0817ZM12.4155 13.796L11.3133 14.32L16.0693 16.5166L20.8252 14.32L19.7231 13.796L16.2959 15.3789C16.1518 15.4451 15.9867 15.4451 15.8426 15.3789L12.4155 13.796ZM20.8252 12.0343L16.0693 14.2309L11.3133 12.0343L16.0693 9.772L20.8252 12.0343Z"
+                      fill="#9D9D9D" />
+                  </svg>
+                </div>
+                <div class=" align-items-center col-9">
+                  <h4 class="bold font__size--16 text__16-1024  m-0">Full Stack</h4>
+                </div>
               </div>
-              <div class=" align-items-center col-9">
-                <h4 class="bold font__size--16 text__16-1024  m-0">Full Stack</h4>
-              </div>
-            </div>
             </a>
           </div>
-        
+
 
           <!--Design-->
           <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
@@ -238,7 +244,8 @@
                       </div>
 
                     </div>
-                    <a href="aupost.html" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out More
+                    <a href="aupost.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out More
                       <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
                     </a>
                   </div>
@@ -275,7 +282,8 @@
                         </div>
                         <div>
                           <a href="libre.html"
-                            class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
+                            class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out
+                            more
                             <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
                           </a>
                         </div>
@@ -288,6 +296,47 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="row align-items-stretch">
+            <!--Linksys-->
+            <div class="col-12">
+              <div class="wrapper__project bg__black mb-5 " data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="row justify-content-between justify-content-xl-center">
+                  <div class="col-12 col-md-6 col-xl-6 p-lg-5 m-0 p-0 pb-3 m-md-2 align-items-center">
+                    <img src="./assets/images/mx4200.png" alt=""/>
+                  </div>
+                  <div class="col-12 col-md-5 col-xl-3 mb-5 my-md-auto px-0">
+                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                      Linksys
+                    </h4>
+                    <p class="tile-sub mt-1">
+                      MX5500 Mesh Routers
+                    </p>
+                    <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Market Research
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Forcasting
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Development
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        GTM
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Sales & Markeing support
+                      </div>
+                    </div>
+                    <a href="" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
+                      soon
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
         </section>
 
@@ -330,11 +379,12 @@
                         Marketing
                       </div>
                     </div>
-                    <a href="anfanifi.html" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find Out more
+                    <a href="anfanifi.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find Out more
                       <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
                     </a>
                   </div>
-                  <div class="col-12 col-md-6 col-xl-3 px-0 align-items-center">
+                  <div class="col-12 col-md-6 col-xl-5 px-0 align-items-center">
                     <img src="./assets/images/laptop.svg" alt="" />
                   </div>
                 </div>
@@ -424,8 +474,8 @@
             </div>
         </section>
 
-<!--Full Stack-->
-       
+        <!--Full Stack-->
+
         <section>
           <div class="text-center" id="fullstack-projects">
             <h2 class="bold font__size--40 text__40-1024 text__40-mm mb-5" data-aos="fade-up" data-aos-duration="1000"
@@ -464,7 +514,8 @@
                         Testing
                       </div>
                     </div>
-                    <a href="tasker.html" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
+                    <a href="tasker.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
                       <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
                     </a>
                   </div>
@@ -474,52 +525,98 @@
                 </div>
               </div>
             </div>
-          </section>
+        
+        <div class="row align-items-stretch">
+          <!--Code Institute-->
+          <div class="col-12">
+            <div class="wrapper__project bg_orange_v2 mb-5 " data-aos="fade-left" data-aos-duration="1000"
+              data-aos-delay="200">
+              <div class="row justify-content-between justify-content-xl-center">
+                <div class="col-12 col-md-6 col-xl-6 p-lg-5 m-0 p-0 pb-3 m-md-2 align-items-center">
+                  <img src="./assets/images/code_institute_image.png" alt="" class="shadow-lg rounded-10" />
+                </div>
+                <div class="col-12 col-md-5 col-xl-3 mb-5 my-md-auto px-0">
+                  <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                    Code Institute
+                  </h4>
+                  <p class="tile-sub mt-1">
+                    Code Institute Projects & Hackathons
+                  </p>
+                  <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
+                    <div class="item medium font__size--14 text__14-1024 color__white">
+                      HTML, CSS
+                    </div>
+                    <div class="item medium font__size--14 text__14-1024 color__white">
+                      Python, javascript
+                    </div>
+                    <div class="item medium font__size--14 text__14-1024 color__white">
+                      Bootstrap
+                    </div>
+                    <div class="item medium font__size--14 text__14-1024 color__white">
+                      Development
+                    </div>
+                    <div class="item medium font__size--14 text__14-1024 color__white">
+                      Agile
+                    </div>
+                  </div>
+                  <a href="" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
+                    soon
+                    <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
 
     <!--Contact me-->
-    <section class="pt-0">
-     
+    <section class="p-0">
+      <div class="container">
         <div class="wrapper__contat-us position-relative bg__softblue" data-aos="fade-up" data-aos-duration="1000"
           data-aos-delay="200">
           <img src="./assets/images/Mask group (1).png" class="path__4" alt="" />
           <div class="position-relative z-2">
             <h2 class="bold font__size--65 text__60-1024 text__60-sm text__60-xxs mb-4">
               Do you think <br />
-              <span class="position-relative path__3 extra"><span class="position-relative z-2">I'm a good fit?</span></span>
+              <span class="position-relative path__3 extra"><span class="position-relative z-2">I'm a good
+                  fit?</span></span>
             </h2>
 
             <a href="https://www.linkedin.com/in/oluakani/"
-              class="bold font__size--14 text__14-1024 btn btn__white color__black shadow rounded-50" target="blank">Contact me on LinkedIn</a>
+              class="bold font__size--14 text__14-1024 btn btn__white color__black shadow rounded-50"
+              target="blank">Contact me on LinkedIn</a>
           </div>
         </div>
-      
+      </div>
     </section>
 
     <section class="py-4">
       <div class="container text-center">
         <ul class="list__sosmed">
           <li>
-            <a href="https://www.linkedin.com/in/oluakani/" target="blank"><img src="./assets/images/linkedin.svg" alt="" /></a>
+            <a href="https://www.linkedin.com/in/oluakani/" target="blank"><img src="./assets/images/linkedin.svg"
+                alt="" /></a>
           </li>
           <li>
             <a href="https://github.com/Oakani1" target="blank"><img src="./assets/images/github.svg" alt="" /></a>
           </li>
-          
+
         </ul>
       </div>
     </section>
-      </div>
 
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/popper.min.js"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-      <script src="assets/js/index.js"></script>
-      <script type="text/javascript">
-        // AOS.init();
-      </script>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script type="text/javascript">
+    // AOS.init();
+  </script>
 </body>
 
 </html>

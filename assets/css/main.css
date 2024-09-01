@@ -3257,7 +3257,9 @@ h5 {
   background-color: #504CEA;
 }
 
-
+.bg_orange_v2 {
+  background-color: #F05426;
+}
 
 .bg_vibrant_blue {
   background-color: #0707CF;
@@ -4468,6 +4470,11 @@ h5 {
     flex: 0 0 calc(100% / 6);
     max-width: calc(100% / 6);
   }
+}
+
+.nav {
+  height: 10rem;
+
 }
 
 .wrapper__navbar {
