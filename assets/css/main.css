@@ -3245,9 +3245,13 @@ h5 {
     
   }
 
-  
-  
 }
+  .div-height {
+    height: 50rem;
+
+  }
+  
+
 
 .bg_new_purple {
   background-color: #504CEA;
@@ -3287,9 +3291,6 @@ h5 {
 .wrapper__project.new-purple {
   background-color: #504CEA;
 }
-
-
-
 
 
 .wrapper__project.tosca {
