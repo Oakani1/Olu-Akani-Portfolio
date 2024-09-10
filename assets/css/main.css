@@ -673,6 +673,12 @@ body {
   line-height: 1.7em;
 }
 
+body {
+  overflow-x: hidden; 
+}
+
+
+
 a {
   text-decoration: none;
 }
