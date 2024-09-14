@@ -65,6 +65,10 @@
   margin-bottom: 2rem;
 }
 
+.section-height {
+  min-height: 35rem;
+}
+
 @media screen and (max-width: 768px) {
 .project-section-headings{
   font-size: 1.2rem;
@@ -3290,6 +3294,10 @@ h5 {
 
 .wrapper__project.deep_red {
   background-color: #AF3246;
+}
+
+.deep_blue {
+  background-color: #0E176F;
 }
 
 .wrapper__project.deep_blue {
