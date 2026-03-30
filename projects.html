@@ -12,6 +12,10 @@
   <meta property="og:type" content="website" />
   <title>Portfolio Projects</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
@@ -26,7 +30,7 @@
     <nav class="navbar navbar-expand-lg wrapper__navbar position-relative z-3 sticky-top" data-aos="fade-down"
       data-aos-duration="1000" data-aos-delay="300">
       <div class="container position-relative">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="./assets/images/LOGO.svg" alt="" />
         </a>
         <button class="navbar-toggler nav__button position-relative" type="button" data-toggle="collapse"
@@ -58,12 +62,12 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="projects.html">All</a>
                 <a class="dropdown-item bold font__size--12 text__12-md color__gray-1"
-                  href="projects.html#hardware-projects">Hardware</a>
-                <a class="dropdown-item bold font__size--12 text__12-md color__gray-1"
-                  href="projects.html#digital-projects">Digital</a>
+                  href="projects.html#digital-projects">Product Management</a>
                 <a class="dropdown-item bold font__size--12 text__12-md color__gray-1"
                   href="projects.html#fullstack-projects">Fullstack</a>
                 <a class="dropdown-item bold font__size--12 text__12-md color__gray-1" href="">Design (Coming soon)</a>
+                <a class="dropdown-item bold font__size--12 text__12-md color__gray-1"
+                  href="projects.html#hardware-projects">Hardware</a>
               </div>
             </li>
           </ul>
@@ -116,33 +120,6 @@
         <!--Categor tiles-->
         <div class="row justify-content-center">
 
-          <!--Hardware-->
-
-          <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
-            data-aos-duration="1000" data-aos-delay="500">
-            <a href="#hardware-projects" class="no-color-change">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-3">
-                  <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M20.8847 3.8457H6.11542C4.58602 3.8457 3.34619 5.08553 3.34619 6.61493V21.3842C3.34619 22.9136 4.58602 24.1534 6.11542 24.1534H20.8847C22.4141 24.1534 23.6539 22.9136 23.6539 21.3842V6.61493C23.6539 5.08553 22.4141 3.8457 20.8847 3.8457Z"
-                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
-                    <path
-                      d="M19.0386 7.53809H7.96165C7.45185 7.53809 7.03857 7.95136 7.03857 8.46116V19.5381C7.03857 20.0479 7.45185 20.4612 7.96165 20.4612H19.0386C19.5484 20.4612 19.9617 20.0479 19.9617 19.5381V8.46116C19.9617 7.95136 19.5484 7.53809 19.0386 7.53809Z"
-                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
-                    <path
-                      d="M13.5 3.84615V2M18.1154 3.84615V2M8.88462 3.84615V2M13.5 26V24.1538M18.1154 26V24.1538M8.88462 26V24.1538M23.6538 14H25.5M23.6538 18.6154H25.5M23.6538 9.38462H25.5M1.5 14H3.34615M1.5 18.6154H3.34615M1.5 9.38462H3.34615"
-                      stroke="#9D9D9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                </div>
-                <div class=" align-items-center col-9">
-                  <h4 class="bold font__size--16 text__16-1024  m-0">Hardware</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-
-
           <!--Digital-->
 
           <div class="row wrapper__card-service  align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
@@ -157,7 +134,7 @@
                   </svg>
                 </div>
                 <div class=" align-items-center col-9">
-                  <h4 class="bold font__size--16 text__16-1024  m-0">Digital</h4>
+                  <h4 class="bold font__size--16 text__16-1024  m-0">Digital PM</h4>
                 </div>
               </div>
             </a>
@@ -214,141 +191,32 @@
               </div>
             </div>
           </div>
+
+          <!--Hardware-->
+          <div class="row wrapper__card-service wrapper__card-service--stroke-only align-items-center p-3 m-3 m-3 col-md-4 col-lg-2" data-aos="flip-left"
+            data-aos-duration="1000" data-aos-delay="500">
+            <a href="#hardware-projects" class="no-color-change">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-3">
+                  <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M20.8847 3.8457H6.11542C4.58602 3.8457 3.34619 5.08553 3.34619 6.61493V21.3842C3.34619 22.9136 4.58602 24.1534 6.11542 24.1534H20.8847C22.4141 24.1534 23.6539 22.9136 23.6539 21.3842V6.61493C23.6539 5.08553 22.4141 3.8457 20.8847 3.8457Z"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
+                    <path
+                      d="M19.0386 7.53809H7.96165C7.45185 7.53809 7.03857 7.95136 7.03857 8.46116V19.5381C7.03857 20.0479 7.45185 20.4612 7.96165 20.4612H19.0386C19.5484 20.4612 19.9617 20.0479 19.9617 19.5381V8.46116C19.9617 7.95136 19.5484 7.53809 19.0386 7.53809Z"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linejoin="round" />
+                    <path
+                      d="M13.5 3.84615V2M18.1154 3.84615V2M8.88462 3.84615V2M13.5 26V24.1538M18.1154 26V24.1538M8.88462 26V24.1538M23.6538 14H25.5M23.6538 18.6154H25.5M23.6538 9.38462H25.5M1.5 14H3.34615M1.5 18.6154H3.34615M1.5 9.38462H3.34615"
+                      stroke="#9D9D9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class=" align-items-center col-9">
+                  <h4 class="bold font__size--16 text__16-1024  m-0">Hardware</h4>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
-        <!--Hardware-->
-        <section>
-          <div class="text-center" id="hardware-projects">
-            <h2 class="bold font__size--40 text__40-1024 text__40-mm mb-5" data-aos="fade-up" data-aos-duration="1000"
-              data-aos-delay="200">
-              <span class="position-relative path__3"><span class="position-relative z-2">Hardware
-                </span></span>Product Management
-            </h2>
-          </div>
-          <div class="row d-flex align-items-stretch">
-            <!--AU Post Tile-->
-            <div class="col-xl-6 d-flex">
-              <div class="wrapper__project deep_red mb-5" data-aos="fade-right" data-aos-duration="1000"
-                data-aos-delay="200">
-                <div class="row">
-                  <div class="col-12 col-md-6 col-xl-6 mb-5 my-md-auto">
-                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
-                      Australia Post
-                    </h4>
-                    <p class="tile-sub mt-1">
-                      Plus 8 Touch 5 4G Smart Phone
-                    </p>
-                    <div class="category d-flex align-items-center flex-wrap mb-4 mb-md-3">
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Research
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Production
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Branding
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Life cycle management
-                      </div>
-
-                    </div>
-                    <a href="aupost.html"
-                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out More
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
-                    </a>
-                  </div>
-                  <div class="col-12 col-md-6 col-xl-6 px-0 align-items-center">
-                    <img src="./assets/images/plus8.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--L1bre Tile-->
-            <div class="col-xl-6 d-flex">
-              <div class="wrapper__project light-blue mb-5" data-aos="fade-left" data-aos-duration="1000"
-                data-aos-delay="200">
-                <div class="row">
-                  <div class="col-12 mb-5 my-md-auto">
-                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
-                      L1bre
-                    </h4>
-                    <p class="tile-sub mt-1 col-12 col-md-7 p-0">
-                      Driver & Customer facing tablets for Mexican Taxi App
-                    </p>
-                    <div class="row justify-content-between ">
-                      <div class="column col-12 col-md-5">
-                        <div class="category d-flex align-content-start flex-wrap mb-2 mb-md-2 mb-2-5 mb-lg-5">
-                          <div class="item medium font__size--14 text__14-1024 color__white">
-                            Project Management
-                          </div>
-                          <div class="item medium font__size--14 text__14-1024 color__white">
-                            Product Management
-                          </div>
-                          <div class="item medium font__size--14 text__14-1024 color__white">
-                            Design
-                          </div>
-                        </div>
-                        <div>
-                          <a href="libre.html"
-                            class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out
-                            more
-                            <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-12 col-md-7 px-0 align-items-center ">
-                        <img src="./assets/images/l1bre.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Linksys-->
-          <div class="row align-items-stretch">
-            <div class="col-12">
-              <div class="wrapper__project bg__black mb-5 " data-aos="fade-left" data-aos-duration="1000"
-                data-aos-delay="200">
-                <div class="row justify-content-between justify-content-xl-center">
-                  <div class="col-12 col-md-6 col-xl-6 p-lg-5 m-0 p-0 pb-3 m-md-2 align-items-center">
-                    <img src="./assets/images/mx4200.png" alt="" />
-                  </div>
-                  <div class="col-12 col-md-5 col-xl-3 mb-5 my-md-auto px-0">
-                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
-                      Linksys
-                    </h4>
-                    <p class="tile-sub mt-1">
-                      MX5500 Mesh Routers
-                    </p>
-                    <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Market Research
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Forcasting
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Development
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        GTM
-                      </div>
-                      <div class="item medium font__size--14 text__14-1024 color__white">
-                        Sales & Markeing support
-                      </div>
-                    </div>
-                    <a href="" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
-                      soon
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <!--Digital-->
         <section>
           <div class="text-center" id="digital-projects">
@@ -359,47 +227,50 @@
             </h2>
           </div>
           <div class="row align-items-stretch">
-            <!--AnfaniFi-->
+                        <!--NHS-->
             <div class="col-12">
-              <div class="wrapper__project vibrant_blue mb-5 " data-aos="fade-right" data-aos-duration="1000"
+              <div class="wrapper__project mb-5" style="background-color: #3D3382;" data-aos="fade-up" data-aos-duration="1000"
                 data-aos-delay="200">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-6 col-xl-3 mb-5 my-md-auto px-0">
+                  <div class="col-12 col-md-6 col-xl-6 px-0 align-items-center">
+                    <img src="./assets/images/harp_mockup_shadow.png" alt="HARP project mockup" style="max-width: 100%; height: auto; transform: scale(1.05); transform-origin: left center; filter: drop-shadow(0px 25px 50px rgba(0,0,0,0.7));" loading="lazy" />
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-6 mb-5 my-md-auto pl-lg-5">
                     <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
-                      AnfaniFI
+                      NHS Race &amp; Health Observatory
                     </h4>
                     <p class="tile-sub mt-1">
-                      Merchant Dashboard, Menu creation & Ordering system
+                      Health Action Resource Platform (HARP)
                     </p>
                     <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
                       <div class="item medium font__size--14 text__14-1024 color__white">
-                        Research
+                        Discovery &amp; Research
                       </div>
                       <div class="item medium font__size--14 text__14-1024 color__white">
-                        Requirements
+                        User Segmentation
                       </div>
                       <div class="item medium font__size--14 text__14-1024 color__white">
-                        UX Design
+                        Roadmap
                       </div>
                       <div class="item medium font__size--14 text__14-1024 color__white">
-                        Sprints
+                        Stakeholder Management
                       </div>
                       <div class="item medium font__size--14 text__14-1024 color__white">
-                        Marketing
+                        Agile Delivery
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        AI Integration
                       </div>
                     </div>
-                    <a href="anfanifi.html"
-                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find Out more
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                    <a href="nhs.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
                     </a>
-                  </div>
-                  <div class="col-12 col-md-6 col-xl-5 px-0 align-items-center">
-                    <img src="./assets/images/laptop.svg" alt="" />
                   </div>
                 </div>
               </div>
             </div>
-            <!--FilmSlate-->
+<!--FilmSlate-->
             <div class="col-xl-6 d-flex">
               <div class="wrapper__project deep_red mb-5" data-aos="fade-right" data-aos-duration="1000"
                 data-aos-delay="200">
@@ -428,11 +299,11 @@
                     </div>
                     <a href="#!" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
                       Soon
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
                     </a>
                   </div>
                   <div class="col-12 col-md-6 col-xl-5 mt-1 mt-md-5 p-3 align-items-center">
-                    <img src="./assets/images/review.svg" alt="" />
+                    <img src="./assets/images/review.svg" alt=""  loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -468,19 +339,59 @@
                         <div>
                           <a href="sky.html"
                             class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
-                            <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                            <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
                           </a>
                         </div>
                       </div>
                       <div class="col-12 col-md-7 px-0 align-items-center ">
-                        <img src="./assets/images/sky_tv.png" alt="" />
+                        <img src="./assets/images/sky_tv.png" alt=""  loading="lazy" />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-        </section>
+<!--AnfaniFi-->
+            <div class="col-12">
+              <div class="wrapper__project vibrant_blue mb-5 " data-aos="fade-right" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-6 col-xl-3 mb-5 my-md-auto px-0">
+                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                      AnfaniFI
+                    </h4>
+                    <p class="tile-sub mt-1">
+                      Merchant Dashboard, Menu creation & Ordering system
+                    </p>
+                    <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Research
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Requirements
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        UX Design
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Sprints
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Marketing
+                      </div>
+                    </div>
+                    <a href="anfanifi.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find Out more
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-5 px-0 align-items-center">
+                    <img src="./assets/images/laptop.svg" alt=""  loading="lazy" />
+                  </div>
+                </div>
+              </div>
+            </div>
+                    </section>
 
         <!--Full Stack-->
 
@@ -524,11 +435,11 @@
                     </div>
                     <a href="tasker.html"
                       class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out more
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
                     </a>
                   </div>
                   <div class="col-12 col-md-4 col-xl-2 px-0 align-items-center">
-                    <img src="./assets/images/tasker_mobile.png" alt="" />
+                    <img src="./assets/images/tasker_mobile.png" alt=""  loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -543,7 +454,7 @@
                 data-aos-delay="200">
                 <div class="row justify-content-between justify-content-xl-center">
                   <div class="col-12 col-md-6 col-xl-6 p-lg-5 m-0 p-0 pb-3 m-md-2 align-items-center">
-                    <img src="./assets/images/code_institute_image.png" alt="" class="shadow-lg rounded-10" />
+                    <img src="./assets/images/code_institute_image.png" alt="" class="shadow-lg rounded-10"  loading="lazy" />
                   </div>
                   <div class="col-12 col-md-5 col-xl-3 mb-5 my-md-auto px-0">
                     <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
@@ -571,7 +482,7 @@
                     </div>
                     <a href="" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
                       soon
-                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt="" />
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
                     </a>
                   </div>
                 </div>
@@ -579,13 +490,148 @@
             </div>
         </section>
 
+        <!--Hardware-->
+        <section>
+          <div class="text-center" id="hardware-projects">
+            <h2 class="bold font__size--40 text__40-1024 text__40-mm mb-5" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="200">
+              <span class="position-relative path__3"><span class="position-relative z-2">Hardware
+                </span></span>Product Management
+            </h2>
+          </div>
+          <div class="row d-flex align-items-stretch">
+            <!--AU Post Tile-->
+            <div class="col-xl-6 d-flex">
+              <div class="wrapper__project deep_red mb-5" data-aos="fade-right" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-xl-6 mb-5 my-md-auto">
+                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                      Australia Post
+                    </h4>
+                    <p class="tile-sub mt-1">
+                      Plus 8 Touch 5 4G Smart Phone
+                    </p>
+                    <div class="category d-flex align-items-center flex-wrap mb-4 mb-md-3">
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Research
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Production
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Branding
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Life cycle management
+                      </div>
 
-        <!--Contact me-->
+                    </div>
+                    <a href="aupost.html"
+                      class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out More
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-6 px-0 align-items-center">
+                    <img src="./assets/images/plus8.svg" alt=""  loading="lazy" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--L1bre Tile-->
+            <div class="col-xl-6 d-flex">
+              <div class="wrapper__project light-blue mb-5" data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="row">
+                  <div class="col-12 mb-5 my-md-auto">
+                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                      L1bre
+                    </h4>
+                    <p class="tile-sub mt-1 col-12 col-md-7 p-0">
+                      Driver & Customer facing tablets for Mexican Taxi App
+                    </p>
+                    <div class="row justify-content-between ">
+                      <div class="column col-12 col-md-5">
+                        <div class="category d-flex align-content-start flex-wrap mb-2 mb-md-2 mb-2-5 mb-lg-5">
+                          <div class="item medium font__size--14 text__14-1024 color__white">
+                            Project Management
+                          </div>
+                          <div class="item medium font__size--14 text__14-1024 color__white">
+                            Product Management
+                          </div>
+                          <div class="item medium font__size--14 text__14-1024 color__white">
+                            Design
+                          </div>
+                        </div>
+                        <div>
+                          <a href="libre.html"
+                            class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Find out
+                            more
+                            <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7 px-0 align-items-center ">
+                        <img src="./assets/images/l1bre.png" alt=""  loading="lazy" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Linksys-->
+          <div class="row align-items-stretch">
+            <div class="col-12">
+              <div class="wrapper__project bg__black mb-5 " data-aos="fade-left" data-aos-duration="1000"
+                data-aos-delay="200">
+                <div class="row justify-content-between justify-content-xl-center">
+                  <div class="col-12 col-md-6 col-xl-6 p-lg-5 m-0 p-0 pb-3 m-md-2 align-items-center">
+                    <img src="./assets/images/mx4200.png" alt=""  loading="lazy" />
+                  </div>
+                  <div class="col-12 col-md-5 col-xl-3 mb-5 my-md-auto px-0">
+                    <h4 class="bold font__size--40 text__40-1024 text__40-mm color__white mb-1">
+                      Linksys
+                    </h4>
+                    <p class="tile-sub mt-1">
+                      MX5500 Mesh Routers
+                    </p>
+                    <div class="category d-flex align-items-center flex-wrap mb-2 mb-md-2">
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Market Research
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Forcasting
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Development
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        GTM
+                      </div>
+                      <div class="item medium font__size--14 text__14-1024 color__white">
+                        Sales & Markeing support
+                      </div>
+                    </div>
+                    <a href="" class="d-flex align-items-center bold font__size--16 text__16-1024 color__white">Coming
+                      soon
+                      <img src="./assets/images/Arrow 7.png" class="ml-3" alt=""  loading="lazy" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+          <!--Contact me-->
         <section class="p-0">
           <div class="container">
             <div class="wrapper__contat-us position-relative bg__softblue" data-aos="fade-up" data-aos-duration="1000"
               data-aos-delay="200">
-              <img src="./assets/images/Mask group (1).png" class="path__4" alt="" />
+              <img src="./assets/images/Mask group (1).png" class="path__4" alt=""  loading="lazy" />
               <div class="position-relative z-2">
                 <h2 class="bold font__size--65 text__60-1024 text__60-sm text__60-xxs mb-4">
                   Do you think <br />
@@ -606,10 +652,10 @@
             <ul class="list__sosmed">
               <li>
                 <a href="https://www.linkedin.com/in/oluakani/" target="blank"><img src="./assets/images/linkedin.svg"
-                    alt="" /></a>
+                    alt=""  loading="lazy" /></a>
               </li>
               <li>
-                <a href="https://github.com/Oakani1" target="blank"><img src="./assets/images/github.svg" alt="" /></a>
+                <a href="https://github.com/Oakani1" target="blank"><img src="./assets/images/github.svg" alt=""  loading="lazy" /></a>
               </li>
 
             </ul>
